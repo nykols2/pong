@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+  --preto-principal: #000000;
+  --cinza-secundario: #585858;
+  --cor-fundo: #f8ca92;
+}
+
+
+body {
+  background-color: var(--cor-fundo);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Inter';
+  margin: 0;
+}
+
+canvas {
+  border: 10px solid black;
+  border-radius: 10px;
+}
+
+.rodape__texto {
+  margin: 1em 0;
+  color: var(--cinza-secundario);
+  font-size: 14px;
+}
+
+.rodape {
+  text-align: center;
+  margin: 7em 3em 2em 3em;
+  position: fixed;
+  bottom: 10px
+}
