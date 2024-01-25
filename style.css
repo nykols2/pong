@@ -73,3 +73,34 @@ body {
     text-align: center;
     margin: 7em 3em 2em 3em;
 }
+
+
+
+
+/* Aviso mobile */
+@media screen and (max-width: 800px) {
+    body {
+      background-color: #000000; 
+      color: #ffffff; /
+    }
+  }
+  
+  .tela-aviso-mobile {
+    display: none;  /*inicialmente, mensagem oculta*/
+  }
+  
+  @media screen and (max-width: 800px) {
+    .tela-aviso-mobile {
+      display: block;  /*exibe a mensagem*/
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #000000;
+      color: #ffffff;
+      text-align: center;
+      padding-top: 100px;
+    }
+  
+  }
